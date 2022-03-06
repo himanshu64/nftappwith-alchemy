@@ -1,0 +1,10 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.mint-section {
+    padding: 10rem 0;
+
+    button {
+        text-transform: capitalize;
+    }
+}
